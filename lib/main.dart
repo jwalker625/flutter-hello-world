@@ -72,6 +72,8 @@ class MyHomePage extends StatelessWidget {
                 ),
               ],
             ),
+            SizedBox(height: 40),
+            ...appState.favorites.map((favorite) => Text(favorite.asLowerCase)),
           ],
         ),
       ),
