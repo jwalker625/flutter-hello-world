@@ -1,31 +1,96 @@
-### IntelliJ IDEA ###
-out/
-!**/src/main/**/out/
-!**/src/test/**/out/
-.kotlin
+# IDE Files
 .idea/
-
-### Eclipse ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
-
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-
-### VS Code ###
+.vs/
 .vscode/
+*.iml
 
-### Mac OS ###
+# OS Files
 .DS_Store
+Thumbs.db
+
+# Dart/Flutter
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+
+# Generated files
+*.g.dart
+*.freezed.dart
+*.mocks.dart
+*.config.dart
+lib/generated_plugin_registrant.dart
+integration_test/test_bundle.dart
+patrol_test/
+
+# Flutter/Dart coverage
+coverage/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android
+**/android/**/gradle-wrapper.jar
+**/android/.gradle
+**/android/captures/
+**/android/gradlew
+**/android/gradlew.bat
+**/android/local.properties
+**/android/**/GeneratedPluginRegistrant.java
+**/android/key.properties
+*.jks
+
+# iOS/macOS
+**/ios/**/*.mode1v3
+**/ios/**/*.mode2v3
+**/ios/**/*.moved-aside
+**/ios/**/*.pbxuser
+**/ios/**/*.perspectivev3
+**/ios/**/*sync/
+**/ios/**/.sconsign.dblite
+**/ios/**/.tags*
+**/ios/**/.vagrant/
+**/ios/**/DerivedData/
+**/ios/**/Icon?
+**/ios/**/Pods/
+**/ios/**/.symlinks/
+**/ios/**/profile
+**/ios/**/xcuserdata
+**/ios/.generated/
+**/ios/Flutter/.last_build_id
+**/ios/Flutter/App.framework
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Flutter.podspec
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/ephemeral
+**/ios/ServiceDefinitions.json
+**/ios/Runner/GeneratedPluginRegistrant.*
+**/macos/Flutter/GeneratedPluginRegistrant.swift
+**/macos/Flutter/ephemeral
+
+# Web
+lib/generated_plugin_registrant.dart
+
+# Exceptions to above rules
+!**/ios/**/default.mode1v3
+!**/ios/**/default.mode2v3
+!**/ios/**/default.pbxuser
+!**/ios/**/default.perspectivev3
+
+# JavaScript/TypeScript (if applicable)
+.npmrc
+**/node_modules/
+
+# Miscellaneous
+.dccache
+*.log
+settings.local.json
+
+# Claude Code cache
+.claude/cache/
